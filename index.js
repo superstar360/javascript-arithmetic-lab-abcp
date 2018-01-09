@@ -14,14 +14,18 @@ function divide(a, b){
   return a / b
 }
 
-function inc(a) {
-  return a += 1
+function inc(n) {
+  return n += 1
 }
 
-function dec(a) {
-  return a -= 1
+function dec(n) {
+  return n -= 1
 }
 
-function makeInt(a) {
-  return 
+function makeInt(n.toString) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n, 10)
 }
